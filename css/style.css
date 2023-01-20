@@ -1879,6 +1879,314 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-webkit-input-placeholder,
+.appointment__form-block__textarea textarea::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-moz-placeholder,
+.appointment__form-block__textarea textarea::-moz-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input:-ms-input-placeholder,
+.appointment__form-block__textarea textarea:-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.appointment__form-block__inputs input::-ms-input-placeholder,
+.appointment__form-block__textarea textarea::-ms-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .appointment__form-block__inputs input::-webkit-input-placeholder, .appointment__form-block__textarea textarea::-webkit-input-placeholder {
   font-family: 'Roboto';
   font-style: normal;
