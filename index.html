@@ -1,525 +1,592 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doggie</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900)"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <div id='preloader'>
-        <img src="img/Icons/preloader.gif" alt="preloader">
+  <body>
+    <div id="preloader">
+      <img src="img/Icons/preloader.gif" alt="preloader" />
     </div>
     <div class="btn-up btn-up_hide"></div>
-    <div class="hero">
+    <main class="hero">
+      <!-- HEADER -->
+      <div class="container">
+        <header class="hero__header">
+          <div class="header__logo">
+            <a href="#"><img src="img/Icons/logo.svg" alt="#" /></a>
+          </div>
 
-
-        <!-- ----------------------------HEADER--------------------------------------------->
-        <div class="container">
-            <header class="hero__header">
-
-                <section class="header__logo">
-                    <a href="#"><img src="img/Icons/logo.svg" alt="#"></a>
-                </section>
-
-                <section class="header__utility">
-                    <div class="utility__items">
-                        <div class="utility__item">
-                            <div class="utility__item__img">
-                                <img src="img/Icons/access_time_24px.svg" alt="#">
-                            </div>
-                            <div class="utility__item__text">
-                                <p class="utility__font">BOARDING HOURS</p>
-                                <p class="utility__font ">Mon - Sat: 7:00 am - 6:00 pm </p>
-                            </div>
-                        </div>
-
-                        <div class="utility__item">
-                            <div class="utility__item__img">
-                                <img src="img/Icons/phone_24px.svg" alt="#">
-                            </div>
-                            <div class="utility__item__text">
-                                <p class="utility__font call__font__utility">CALL US</p>
-                                <p class="utility__font call__font__utility">(555) Pup-Cares</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-link">
-                        <a class="header-link__item" href="#" onclick="onClick()">Make an Appointment</a>
-                    </div>
-                </section>
-            </header>
-            <!-- ----------------------------NAV--------------------------------------------->
-
-            <nav class="nav">
-                <div class="nav__content">
-                    <div class="nav__leftside">
-                        <div class="logo">
-                            <a href="#"><img src="img/Icons/logo-notext.svg" alt="#"></a>
-                        </div>
-                    </div>
-                    <div class="menu">
-                        <div class="menu__list">
-                            <a class="nav__link" href="#whoweare">Services</a>
-                            <a class="nav__link" href="#our-promise">Specials</a>
-                            <a class="nav__link" href="#video">Facilities</a>
-                            <a class="nav__link" href="#cards-our-promise">Reviews</a>
-                            <a class="nav__link" href="#appointment">Shop</a>
-                            <a class="nav__link" href="#testimonials">About</a>
-                        </div>
-                    </div>
-                    <div class="nav__icons">
-                        <a href="#">
-                            <img class="nav__icons_img" src="img/Icons/search_24px.svg" alt="#">
-                        </a>
-                        <a class="shopping_cart" href="#">
-                            <img class="nav__icons_img" src="img/Icons/shopping_cart_24px.svg" alt="#">
-                            <div id="clicks" class="shopping_cart__count"></div>
-                        </a>
-                        <div class="menu-btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
+          <div class="header__utility">
+            <div class="utility__items">
+              <div class="utility__item">
+                <div class="utility__item__img">
+                  <img src="img/Icons/access_time_24px.svg" alt="#" />
                 </div>
-            </nav>
-        </div>
+                <div class="utility__item__text">
+                  <p class="utility__font">BOARDING HOURS</p>
+                  <p class="utility__font">Mon - Sat: 7:00 am - 6:00 pm</p>
+                </div>
+              </div>
 
-        <!-- ----------------------------MAIN--------------------------------------------->
-       
-        <div class="container">
-            <main class="hero__main">
-                    <h1 class="hero__main__title">Premier dog boarding, daycare & day spa</h1>
-                    <a class="link" href="#" onclick="onClick()">Make an Appointment</a>
+              <div class="utility__item">
+                <div class="utility__item__img">
+                  <img src="img/Icons/phone_24px.svg" alt="#" />
+                </div>
+                <div class="utility__item__text">
+                  <p class="utility__font call__font__utility">CALL US</p>
+                  <p class="utility__font call__font__utility">
+                    (555) Pup-Cares
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="decor">
-                <img src="img/Icons/Stylize Circles.svg" alt="">
+            <div class="header-link">
+              <a class="header-link__item" href="#" onclick="onClick()"
+                >Make an Appointment</a
+              >
             </div>
+          </div>
+        </header>
+
+        <!-- NAV -->
+        <nav class="nav">
+          <div class="nav__content">
+            <div class="nav__leftside">
+              <div class="logo">
+                <a href="#"><img src="img/Icons/logo-notext.svg" alt="#" /></a>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="menu__list">
+                <a class="nav__link" href="#whoweare">Services</a>
+                <a class="nav__link" href="#our-promise">Specials</a>
+                <a class="nav__link" href="#video">Facilities</a>
+                <a class="nav__link" href="#cards-our-promise">Reviews</a>
+                <a class="nav__link" href="#appointment">Shop</a>
+                <a class="nav__link" href="#testimonials">About</a>
+              </div>
+            </div>
+            <div class="nav__icons">
+              <a href="#">
+                <img
+                  class="nav__icons_img"
+                  src="img/Icons/search_24px.svg"
+                  alt="#"
+                />
+              </a>
+              <a class="shopping_cart" href="#">
+                <img
+                  class="nav__icons_img"
+                  src="img/Icons/shopping_cart_24px.svg"
+                  alt="#"
+                />
+                <div id="clicks" class="shopping_cart__count"></div>
+              </a>
+              <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- MAIN -->
+      <div class="container">
+        <div class="hero__main">
+          <h1 class="hero__main__title">
+            Premier dog boarding, daycare & day spa
+          </h1>
+          <a class="link" href="#" onclick="onClick()">Make an Appointment</a>
+          <div class="decor">
+            <img src="img/Icons/Stylize_Circles.svg" alt="" />
+          </div>
         </div>
-        </main>
-
-
-
-    <!-- ----------------------------DOGGIE--------------------------------------------->
-
-
+      </div>
+    </main>
+    <!-- DOGGIE -->
     <div class="container">
-
-        <div id="whoweare" class="doggie">
-            <div class="doggie__content">
-                <div class="website__blockname blockname__doggie">
-                    <img src="img/Icons/logo2.svg" alt="#">
-                    <p>Who we are</p>
-                </div>
-                <div class="website__title title__doggie">
-                    <h3>Nemo enim ipsam voluptatem quia voluptas in proident</h3>
-                </div>
-                <div class="doggie__description">
-                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-                        aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate
-                        velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-                        pariatur.</p>
-                </div>
-                <div class="doggie__image">
-                    <img src="img/Content/Image.png" alt="#">
-                </div>
-            </div>
-
+      <div id="whoweare" class="doggie">
+        <div class="doggie__content">
+          <div class="website__blockname blockname__doggie">
+            <img src="img/Icons/logo2.svg" alt="#" />
+            <p>Who we are</p>
+          </div>
+          <div class="website__title title__doggie">
+            <h3>Nemo enim ipsam voluptatem quia voluptas in proident</h3>
+          </div>
+          <div class="doggie__description">
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur. Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur, vel illum
+              qui dolorem eum fugiat quo voluptas nulla pariatur.
+            </p>
+          </div>
+          <div class="doggie__image">
+            <img src="img/Content/Image.png" alt="#" />
+          </div>
         </div>
+      </div>
     </div>
 
-    <!-- ----------------------------OUR-PROMISE--------------------------------------------->
+    <!-- OUR-PROMISE -->
     <div class="our-promise">
-        <div class="container">
-            <div class="our-promise__content">
-                <div class="website__blockname our-promise__blockname">
-                    <img src="img/Icons/our-promise-logo.svg" alt="#">
-                    <p id="our-promise">OUR PROMISE TO YOU</p>
-                </div>
-                <div class="website__title title__our-promise">
-                    <h3>Sed perspiciatis omnis iste natus</h3>
-                </div>
-            </div>
-
-            <div class="our-promise__cards">
-                <div class="our-promise__cards-item">
-                    <div class="our-promise__cards-image">
-                        <img src="img/Icons/dog_love_24x.svg" class="our-promise__cards-image-icon" alt="">
-                    </div>
-                    <div class="our-promise__cards-text">
-                        <h6 class="our-promise__cards-item__title">24/7 Love & Care</h6>
-                        <p class="our-promise__cards-item__description">At vero eos et accusamus et iusto odio
-                            dignissimos ducimus qui blanditiis praesentium
-                            corrupti quos dolores et quas.</p>
-                    </div>
-                </div>
-                <div class="our-promise__cards-item">
-                    <div class="our-promise__cards-image">
-                        <img src="img/Icons/dog_vet_24x.png" class="our-promise__cards-image-icon" alt="">
-                    </div>
-                    <div class="our-promise__cards-text">
-                        <h6 class="our-promise__cards-item__title">On-site Veterinarian</h6>
-                        <p class="our-promise__cards-item__description">Dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi tempora incidunt.</p>
-                    </div>
-                </div>
-                <div class="our-promise__cards-item">
-                    <div class="our-promise__cards-image">
-                        <img src="img/Icons/dog_stream_24x.png" class="our-promise__cards-image-icon" alt="">
-                    </div>
-                    <div class="our-promise__cards-text">
-                        <h6 class="our-promise__cards-item__title">Live-stream Cameras</h6>
-                        <p class="our-promise__cards-item__description">Quis autem vel eum iure reprehenderit qui in ea
-                            voluptate velit esse quam nihil molestiae consequatur illum.</p>
-                    </div>
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="our-promise__content">
+          <div class="website__blockname our-promise__blockname">
+            <img src="img/Icons/our-promise-logo.svg" alt="#" />
+            <p id="our-promise">OUR PROMISE TO YOU</p>
+          </div>
+          <div class="website__title title__our-promise">
+            <h3>Sed perspiciatis omnis iste natus</h3>
+          </div>
         </div>
+
+        <div class="our-promise__cards">
+          <div class="our-promise__cards-item">
+            <div class="our-promise__cards-image">
+              <img
+                src="img/Icons/dog_love_24x.svg"
+                class="our-promise__cards-image-icon"
+                alt=""
+              />
+            </div>
+            <div class="our-promise__cards-text">
+              <h6 class="our-promise__cards-item__title">24/7 Love & Care</h6>
+              <p class="our-promise__cards-item__description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium corrupti quos dolores et quas.
+              </p>
+            </div>
+          </div>
+          <div class="our-promise__cards-item">
+            <div class="our-promise__cards-image">
+              <img
+                src="img/Icons/dog_vet_24x.png"
+                class="our-promise__cards-image-icon"
+                alt=""
+              />
+            </div>
+            <div class="our-promise__cards-text">
+              <h6 class="our-promise__cards-item__title">
+                On-site Veterinarian
+              </h6>
+              <p class="our-promise__cards-item__description">
+                Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt.
+              </p>
+            </div>
+          </div>
+          <div class="our-promise__cards-item">
+            <div class="our-promise__cards-image">
+              <img
+                src="img/Icons/dog_stream_24x.png"
+                class="our-promise__cards-image-icon"
+                alt=""
+              />
+            </div>
+            <div class="our-promise__cards-text">
+              <h6 class="our-promise__cards-item__title">
+                Live-stream Cameras
+              </h6>
+              <p class="our-promise__cards-item__description">
+                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                esse quam nihil molestiae consequatur illum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-    <!-- ----------------------------VIDEO--------------------------------------------->
+    <!-- VIDEO  -->
     <div id="video" class="video">
-        <div class="container__video">
+      <div class="container__video">
+        <div class="video__content">
+          <div class="video__images-dog">
+            <img src="img/Icons/pup.png" alt="" />
+          </div>
 
-            <div class="video__content">
-
-                <div class="video__images-dog">
-                    <img src="img/Icons/pup.png" alt="">
-                </div>
-
-                <div class="video__text">
-                    <div class="video__decor-line">
-                        <img src="img/Icons/Line 1.svg" alt="">
-                    </div>
-                    <div class="video__decor-ball">
-                        <img src="img/Icons/tennis ball.png" alt="">
-                    </div>
-                    <div class="website__title video__title-settings">
-                        <h3>Nemo enim ipsam voluptatem quia voluptas in proident</h3>
-                    </div>
-                    <div class="video__link">
-                        <a class="link video__link-item" href="#">Make an Appointment</a>
-                    </div>
-
-                </div>
+          <div class="video__text">
+            <div class="video__decor-line">
+              <img src="img/Icons/Line_1.svg" alt="" />
             </div>
+            <div class="video__decor-ball">
+              <img src="img/Icons/tennis_ball.png" alt="" />
+            </div>
+            <div class="website__title video__title-settings">
+              <h3>Nemo enim ipsam voluptatem quia voluptas in proident</h3>
+            </div>
+            <div class="video__link">
+              <a class="link video__link-item" href="#">Make an Appointment</a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <!-- ----------------------------SERVICES--------------------------------------------->
+    <!-- SERVICES  -->
     <div class="services">
-        <img class="services__blob" src="img/Content/blob-right.png" alt="">
-        <div class="services__container">
-            <div class="services__text">
-                <div class="website__blockname services__blockname">
-                    <img src="img/Icons/our-promise-logo.svg" alt="#">
-                    <p id="cards-our-promise">OUR PROMISE TO YOU</p>
-                </div>
-                <div class="website__title title__services">
-                    <h3>Sed perspiciatis omnis iste natus</h3>
-                </div>
-            </div>
-            <div class="services__cards">
-                <a href="#">
-                    <div class="services__card">
-                        <div class="services__card__image">
-                            <img src="img/Icons/Services/dog_boarding_24x.svg" alt="#">
-                        </div>
-                        <div class="services__cards-title">
-                            <h6>Pet Boarding (No Cages)</h6>
-                        </div>
-                        <div class="services__cards-description">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                corrupti quos dolores et quas.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="services__card">
-                        <div class="services__card__image">
-                            <img src="img/Icons/Services/dog_daycare_24x.svg" alt="#">
-                        </div>
-                        <div class="services__cards-title">
-                            <h6>Pet Daycare</h6>
-                        </div>
-                        <div class="services__cards-description">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                corrupti quos dolores et quas.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="services__card">
-                        <div class="services__card__image">
-                            <img src="img/Icons/Services/dog_grooming_24x.svg" alt="#">
-                        </div>
-                        <div class="services__cards-title">
-                            <h6>Pet Day Spa & Grooming</h6>
-                        </div>
-                        <div class="services__cards-description">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                corrupti quos dolores et quas.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="services__card">
-                        <div class="services__card__image">
-                            <img src="img/Icons/Services/dog_food_24x.svg" alt="#">
-                        </div>
-                        <div class="services__cards-title">
-                            <h6>Custom Meal Plans</h6>
-                        </div>
-                        <div class="services__cards-description">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                corrupti quos dolores et quas.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="services__card">
-                        <div class="services__card__image">
-                            <img src="img/Icons/Services/dog_training_24x.svg" alt="#">
-                        </div>
-                        <div class="services__cards-title">
-                            <h6>Pet Training</h6>
-                        </div>
-                        <div class="services__cards-description">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                corrupti quos dolores et quas.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="services__card">
-                        <div class="services__card__image">
-                            <img src="img/Icons/Services/dog_collar_24x.svg" alt="#">
-                        </div>
-                        <div class="services__cards-title">
-                            <h6>Shop Our Store!</h6>
-                        </div>
-                        <div class="services__cards-description">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                corrupti quos dolores et quas.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="services__button">
-                <a class="services__button-item" href="#">Learn more</a>
-            </div>
+      <img class="services__blob" src="img/Content/blob-right.png" alt="" />
+      <div class="services__container">
+        <div class="services__text">
+          <div class="website__blockname services__blockname">
+            <img src="img/Icons/our-promise-logo.svg" alt="#" />
+            <p id="cards-our-promise">OUR PROMISE TO YOU</p>
+          </div>
+          <div class="website__title title__services">
+            <h3>Sed perspiciatis omnis iste natus</h3>
+          </div>
         </div>
+        <div class="services__cards">
+          <a href="#">
+            <div class="services__card">
+              <div class="services__card__image">
+                <img src="img/Icons/Services/dog_boarding_24x.svg" alt="#" />
+              </div>
+              <div class="services__cards-title">
+                <h6>Pet Boarding (No Cages)</h6>
+              </div>
+              <div class="services__cards-description">
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="services__card">
+              <div class="services__card__image">
+                <img src="img/Icons/Services/dog_daycare_24x.svg" alt="#" />
+              </div>
+              <div class="services__cards-title">
+                <h6>Pet Daycare</h6>
+              </div>
+              <div class="services__cards-description">
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="services__card">
+              <div class="services__card__image">
+                <img src="img/Icons/Services/dog_grooming_24x.svg" alt="#" />
+              </div>
+              <div class="services__cards-title">
+                <h6>Pet Day Spa & Grooming</h6>
+              </div>
+              <div class="services__cards-description">
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="services__card">
+              <div class="services__card__image">
+                <img src="img/Icons/Services/dog_food_24x.svg" alt="#" />
+              </div>
+              <div class="services__cards-title">
+                <h6>Custom Meal Plans</h6>
+              </div>
+              <div class="services__cards-description">
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="services__card">
+              <div class="services__card__image">
+                <img src="img/Icons/Services/dog_training_24x.svg" alt="#" />
+              </div>
+              <div class="services__cards-title">
+                <h6>Pet Training</h6>
+              </div>
+              <div class="services__cards-description">
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="services__card">
+              <div class="services__card__image">
+                <img src="img/Icons/Services/dog_collar_24x.svg" alt="#" />
+              </div>
+              <div class="services__cards-title">
+                <h6>Shop Our Store!</h6>
+              </div>
+              <div class="services__cards-description">
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="services__button">
+          <a class="services__button-item" href="#">Learn more</a>
+        </div>
+      </div>
     </div>
 
-    <!-- ----------------------------APPOINTMENT--------------------------------------------->
-
+    <!-- APPOINMENT  -->
     <div id="appointment" class="appointment">
-        <div class="container">
-            <div class="appointment__content">
-                <div class="appointment__form">
-                    <div class="appointment__form-content">
-                        <div class="appointment__image-circles">
-                            <img src="img/decor/appointment/big-circles.svg" alt="">
-                        </div>
+      <div class="container">
+        <div class="appointment__content">
+          <div class="appointment__form">
+            <div class="appointment__form-content">
+              <div class="appointment__image-circles">
+                <img src="img/decor/appointment/big-circles.svg" alt="" />
+              </div>
 
-                        <div class="appointment__form-block__title">
-                            <h2>Make an appointment</h2>
-                        </div>
+              <div class="appointment__form-block__title">
+                <h2>Make an appointment</h2>
+              </div>
 
-                        <section>
-                            <form class="appointment__form-block__inputs" action="#">
-                                <input type="text" placeholder="Name">
-                                <input type="email" placeholder="Email">
-                                <input type="tel" placeholder="Phone number">
-                                <input type="text" placeholder="Select service">
-                            </form>
-                            <form class="appointment__form-block__textarea" action="#">
-                                <textarea name="about-dog" id="about-dog"
-                                    placeholder="Tell us about your puppers include his/her name"></textarea>
-                            </form>
-                        </section>
+              <div>
+                <form class="appointment__form-block__inputs" action="#">
+                  <input type="text" placeholder="Name" />
+                  <input type="email" placeholder="Email" />
+                  <input type="tel" placeholder="Phone number" />
+                  <input type="text" placeholder="Select service" />
+                </form>
+                <form class="appointment__form-block__textarea" action="#">
+                  <textarea
+                    name="about-dog"
+                    id="about-dog"
+                    placeholder="Tell us about your puppers include his/her name"
+                  ></textarea>
+                </form>
+              </div>
 
-                        <div class="appointment__form-block__button">
-                            <input type="submit" class="appointment__button" href="#"
-                                value="Make an Appointment"></input>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="appointment__text">
-                    <div class="appointment__text-title">
-                        <h4>Maxime placeat facere possimus omnis </h4>
-                    </div>
-                    <div class="appointment__text-count">
-                        <p>5,700+</p>
-                    </div>
-                    <div class="appointment__text-description">
-                        <h6>customers served</h6>
-                    </div>
-
-                </div>
+              <div class="appointment__form-block__button">
+                <input
+                  type="submit"
+                  class="appointment__button"
+                  value="Make an Appointment"
+                />
+              </div>
             </div>
+          </div>
+
+          <div class="appointment__text">
+            <div class="appointment__text-title">
+              <h4>Maxime placeat facere possimus omnis</h4>
+            </div>
+            <div class="appointment__text-count">
+              <p>5,700+</p>
+            </div>
+            <div class="appointment__text-description">
+              <h6>customers served</h6>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+
+    <!-- TESTIMONIALS  -->
     <div class="testimonials">
-        <img class="testimonials__blob" src="img/Content/blob-left.png" alt="#">
-        <div class="container">
-
-            <div id="testimonials" class="testimonials__content">
-                <div class="testimonials__text">
-                    <div class="testimonials__content-title">
-                        <img class="testimonials__title-image" src="img/Icons/testimonials/logo.svg" alt="#">
-                        <p class="testimonials__title">Our customers</p>
-                    </div>
-                    <div class="testimonials__content-subtitle">
-                        <h3 class="testimonials__subtitle">Illum qui dolorem eum quo voluptas ut distinctio</h3>
-                    </div>
-                </div>
-                <div class="testimonials__examples">
-                    <div class="testimonials__block">
-                        <div class="testimonials__block__content">
-                            <p class="testimonials__block-story">“Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. Ut enim
-                                illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore. Ut enim
-                                illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”
-                            </p>
-                            <div class="testimonials__block-person">
-                                <img class="testimonials__block-person__image" src="img/Content/testimonials/Sanya.png"
-                                    alt="Sanya">
-                                <p class="testimonials__block-person__name">Olexandr Lisovyi</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonials__block">
-                        <div class="testimonials__block__content">
-                            <p class="testimonials__block-story">“Sed ut perspiciatis unde omnis iste natus error sit
-                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                                inventore veritatis et quasi ipsam voluptatem aspernatur. Ut enim
-                                illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”
-                            </p>
-                            <div class="testimonials__block-person">
-                                <img class="testimonials__block-person__image" src="img/Content/testimonials/Matya.jpg"
-                                    alt="Matya">
-                                <p class="testimonials__block-person__name">Matviy Lisovyi</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <img class="testimonials__blob" src="img/Content/blob-left.png" alt="#" />
+      <div class="container">
+        <div id="testimonials" class="testimonials__content">
+          <div class="testimonials__text">
+            <div class="testimonials__content-title">
+              <img
+                class="testimonials__title-image"
+                src="img/Icons/testimonials/logo.svg"
+                alt="#"
+              />
+              <p class="testimonials__title">Our customers</p>
             </div>
+            <div class="testimonials__content-subtitle">
+              <h3 class="testimonials__subtitle">
+                Illum qui dolorem eum quo voluptas ut distinctio
+              </h3>
+            </div>
+          </div>
+          <div class="testimonials__examples">
+            <div class="testimonials__block">
+              <div class="testimonials__block__content">
+                <p class="testimonials__block-story">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore ex magna
+                  aliqua. Ut enim illum ad minim veniam, quis ea exercitation
+                  ullamco cillum ut enim dolore. Ut enim illum ad minim veniam,
+                  quis ea exercitation ullamco cillum ut enim dolore.”
+                </p>
+                <div class="testimonials__block-person">
+                  <img
+                    class="testimonials__block-person__image"
+                    src="img/Content/testimonials/Sanya.png"
+                    alt="Sanya"
+                  />
+                  <p class="testimonials__block-person__name">
+                    Olexandr Lisovyi
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__block">
+              <div class="testimonials__block__content">
+                <p class="testimonials__block-story">
+                  “Sed ut perspiciatis unde omnis iste natus error sit
+                  voluptatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                  ipsam voluptatem aspernatur. Ut enim illum ad minim veniam,
+                  quis ea exercitation ullamco cillum ut enim dolore.”
+                </p>
+                <div class="testimonials__block-person">
+                  <img
+                    class="testimonials__block-person__image"
+                    src="img/Content/testimonials/Matya.jpg"
+                    alt="Matya"
+                  />
+                  <p class="testimonials__block-person__name">Matviy Lisovyi</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    <!-- WEBSITEINFO  -->
     <div id="faq" class="websiteinfo">
-        <div class="container">
-            <div class="websiteinfo__content">
-                <div class="websiteinfo__social">
-                    <img src="img/Content/websiteinfo/Logo-Placeholder-5.png" alt="#">
-                    <p class="websiteinfo__social-text">This is a blurb about the company sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore ex magna
-                        aliqua. </p>
-                    <div class="websiteinfo__social-links">
-                        <a href=""><img src="img/Icons/websiteinfo/facebook 1.svg" alt="#"></a>
-                        <a href=""><img src="img/Icons/websiteinfo/twitter 1.svg" alt="#"></a>
-                        <a href=""><img src="img/Icons/websiteinfo/instagram.svg" alt="#"></a>
-                        <a href=""><img src="img/Icons/websiteinfo/youtube 1.svg" alt="#"></a>
-                    </div>
-                </div>
-
-                <div class="websiteinfo__explore-links">
-                    <div class="websiteinfo__explore-links__title">
-                        <p>EXPLORE LINKS</p>
-                    </div>
-                    <div class="websiteinfo__explore-links__menu">
-                        <a href="#whoweare">Services</a>
-                        <a href="#our-promise">Specials</a>
-                        <a href="#video">Facilities</a>
-                        <a href="#cards-our-promise">Reviews</a>
-                        <a href="#appointment">Shop</a>
-                        <a href="#testimonials">About</a>
-                        <a href="#faq">Estimates</a>
-                        <a href="#faq">FAQs</a>
-                    </div>
-
-                </div>
-
-                <div class="websiteinfo__contact">
-                    <div class="websiteinfo__contact__title">
-                        <p>CONTACT</p>
-                    </div>
-                    <div class="websiteinfo__contact-item">
-                        <div class="websiteinfo__contact-item__image">
-                            <img src="img/Icons/websiteinfo/place_24px.png" alt="">
-                        </div>
-                        <div class="websiteinfo__contact-item__text">
-                            <a target="_blank" href="http://surl.li/edpju">
-                                <p>9/7 Bohdan Khmelnytskyi Blvd.</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="websiteinfo__contact-item">
-                        <div class="websiteinfo__contact-item__image">
-                            <img src="img/Icons/websiteinfo/smartphone_24px.svg" alt="">
-                        </div>
-                        <div class="websiteinfo__contact-item__text">
-                            <a href="tel:380687526241">
-                                <p>+38 (068) 752 62 41</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="websiteinfo__contact-item">
-                        <div class="websiteinfo__contact-item__image">
-                            <img src="img/Icons/websiteinfo/email_24px.svg" alt="">
-                        </div>
-                        <div class="websiteinfo__contact-item__text">
-                            <a href="mailto:lisovyy13@gmail.com">
-                                <p>lisovyi13@gmail.com</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="websiteinfo__contact-item">
-                        <div class="websiteinfo__contact-item__image">
-                            <img src="img/Icons/websiteinfo/timer_24px.svg" alt="">
-                        </div>
-                        <div class="websiteinfo__contact-item__text">
-                            <a target="_blank" href="http://surl.li/edpju">
-                                <p>Mon - Sat: 7:000 am - 6:00 pm</p>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
+      <div class="container">
+        <div class="websiteinfo__content">
+          <div class="websiteinfo__social">
+            <img src="img/Content/websiteinfo/Logo-Placeholder-5.png" alt="#" />
+            <p class="websiteinfo__social-text">
+              This is a blurb about the company sed do eiusmod tempor incididunt
+              ut labore et dolore ex magna aliqua.
+            </p>
+            <div class="websiteinfo__social-links">
+              <a href=""
+                ><img src="img/Icons/websiteinfo/facebook_1.svg" alt="#"
+              /></a>
+              <a href=""
+                ><img src="img/Icons/websiteinfo/twitter_1.svg" alt="#"
+              /></a>
+              <a href=""
+                ><img src="img/Icons/websiteinfo/instagram.svg" alt="#"
+              /></a>
+              <a href=""
+                ><img src="img/Icons/websiteinfo/youtube_1.svg" alt="#"
+              /></a>
             </div>
+          </div>
+
+          <div class="websiteinfo__explore-links">
+            <div class="websiteinfo__explore-links__title">
+              <p>EXPLORE LINKS</p>
+            </div>
+            <div class="websiteinfo__explore-links__menu">
+              <a href="#whoweare">Services</a>
+              <a href="#our-promise">Specials</a>
+              <a href="#video">Facilities</a>
+              <a href="#cards-our-promise">Reviews</a>
+              <a href="#appointment">Shop</a>
+              <a href="#testimonials">About</a>
+              <a href="#faq">Estimates</a>
+              <a href="#faq">FAQs</a>
+            </div>
+          </div>
+
+          <div class="websiteinfo__contact">
+            <div class="websiteinfo__contact__title">
+              <p>CONTACT</p>
+            </div>
+            <div class="websiteinfo__contact-item">
+              <div class="websiteinfo__contact-item__image">
+                <img src="img/Icons/websiteinfo/place_24px.png" alt="" />
+              </div>
+              <div class="websiteinfo__contact-item__text">
+                <a target="_blank" href="http://surl.li/edpju">
+                  <p>9/7 Bohdan Khmelnytskyi Blvd.</p>
+                </a>
+              </div>
+            </div>
+            <div class="websiteinfo__contact-item">
+              <div class="websiteinfo__contact-item__image">
+                <img src="img/Icons/websiteinfo/smartphone_24px.svg" alt="" />
+              </div>
+              <div class="websiteinfo__contact-item__text">
+                <a href="tel:380687526241">
+                  <p>+38 (068) 752 62 41</p>
+                </a>
+              </div>
+            </div>
+            <div class="websiteinfo__contact-item">
+              <div class="websiteinfo__contact-item__image">
+                <img src="img/Icons/websiteinfo/email_24px.svg" alt="" />
+              </div>
+              <div class="websiteinfo__contact-item__text">
+                <a href="mailto:lisovyy13@gmail.com">
+                  <p>lisovyi13@gmail.com</p>
+                </a>
+              </div>
+            </div>
+            <div class="websiteinfo__contact-item">
+              <div class="websiteinfo__contact-item__image">
+                <img src="img/Icons/websiteinfo/timer_24px.svg" alt="" />
+              </div>
+              <div class="websiteinfo__contact-item__text">
+                <a target="_blank" href="http://surl.li/edpju">
+                  <p>Mon - Sat: 7:000 am - 6:00 pm</p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    <!-- FOOTER  -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__content__description">
-                    <p>22.12.2022</p>
-                </div>
-                <div class="footer__content__privacy">
-                    <p>© 2022 Company</p>
-                    <a href="#">
-                        <a href="#">
-                            <p class="footer__content__privacy-link">Privacy Policy | Terms & Conditions</p>
-                        </a>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__content__description">
+            <p>22.12.2022</p>
+          </div>
+          <div class="footer__content__privacy">
+            <p>© 2022 Company</p>
+            <a href="#">
+              <p class="footer__content__privacy-link">
+                Privacy Policy | Terms & Conditions
+              </p>
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
